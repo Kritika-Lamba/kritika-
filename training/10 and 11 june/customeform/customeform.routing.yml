@@ -1,0 +1,7 @@
+customeform:
+  path: '/custom/register'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\customeform\Form\formcreated'
+  requirements:
+    _permission: 'access content'

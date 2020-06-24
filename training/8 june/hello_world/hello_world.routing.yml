@@ -1,0 +1,14 @@
+hello_world.user:
+  path: '/hello_world/{user}'
+  defaults:
+      _controller: '\Drupal\hello_world\Controller\helloworldController::content'
+      _title: 'My first page in Drupal8'
+  requirements:
+      _permission: 'administrator'
+
+
+
+
+
+
+

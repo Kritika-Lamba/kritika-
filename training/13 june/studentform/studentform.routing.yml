@@ -1,0 +1,7 @@
+formcreation.form:
+  path: '/student/form'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\studentform\Form\studentregistrationform'
+  requirements:
+    _permission: 'view studentform'
