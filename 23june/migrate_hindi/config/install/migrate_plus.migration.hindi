@@ -1,0 +1,22 @@
+id: hindi
+label: hindi
+migration_group: migration_module
+source:
+plugin: hindi
+key: default
+destination:
+plugin: entity:node
+process:
+type:
+plugin: default_value
+default_value: article
+title: name
+body: description
+field_tags:
+plugin: migration
+migration: hindi_chapters
+source: hindi_chapters
+migration_dependencies:
+required:
+hindi_chapters
+

@@ -1,0 +1,13 @@
+id: hindi_chapters
+label: hindi_chapters
+migration_group: migration_module
+source:
+  plugin: hindi_chapters
+  key: default
+destination:
+  plugin: entity:taxonomy_term
+process:
+  vid:
+    plugin: default_value
+    default_value: tags
+  name: name
