@@ -1,0 +1,6 @@
+system_module.config:
+  path: '/system_config'
+  defaults:
+    _controller: '\Drupal\system_module\Controller\SystemModuleController::content'
+  requirements:
+    _permission: 'access content'

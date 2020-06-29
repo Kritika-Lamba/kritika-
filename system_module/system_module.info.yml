@@ -1,0 +1,4 @@
+name: System Config module
+description: Provides a custom system module
+type: module
+core: 8.x

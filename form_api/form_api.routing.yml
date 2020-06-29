@@ -1,0 +1,8 @@
+form_api.form:
+  path: '/custome/myform'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\form_api\Form\formregistration'
+  requirements:
+    _permission: 'access content'
+
