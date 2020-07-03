@@ -1,0 +1,32 @@
+view UserRegistration:
+  title: 'view GetInActiveUser Form'
+  description: 'View and submit the form'
+access UserRegistration report:
+  title: 'Access list of InActiveUser'
+  description: 'view the subbmitted list'
+administer UserRegistration:
+  title: 'Administer List'
+  description: 'Access the page'
+  restrict access: true
+
+view AccessUserDetail:
+  title: 'view UserDetail Form'
+  description: 'View the details of user'
+access AccessUserDetail report:
+  title: 'Access detail of loginuser'
+  description: 'view the  list'
+administer AccessUserDetail:
+  title: 'Administer List'
+  description: 'Access the page'
+  restrict access: true
+
+  view OtherDetail:
+    title: 'view GetForm Form'
+    description: 'submit the other detail'
+  access OtherDetail report:
+    title: 'fill details loginuser'
+    description: 'view'
+  administer OtherDetail:
+    title: 'Administer List'
+    description: 'Access the page'
+    restrict access: true

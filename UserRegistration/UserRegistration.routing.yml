@@ -1,0 +1,45 @@
+UserRegistration.form:
+  path: '/user/otherdetails'
+  defaults:
+    _title: 'Other Detail Form'
+    _form: '\Drupal\UserRegistration\Form\GetForm'
+  requirements:
+    _permission: 'view OtherDetail'
+UserRegistration.form:
+  path: '/user/getusers'
+  defaults:
+    _title: 'InActive User List'
+    _form: '\Drupal\UserRegistration\Form\GetInActiveUser'
+  requirements:
+    _permission: 'view UserRegistration'
+UserRegistration.form:
+  path: '/user/userdetails'
+  defaults:
+    _title: 'All Details of login User'
+    _form: '\Drupal\UserRegistration\Form\UserDetail'
+  requirements:
+    _permission: 'view AccessUserDetail'
+UserRegistration.form:
+  path: '/user/signupform'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\UserRegistration\Form\SignUpForm'
+  requirements:
+    _permission: 'access content'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
